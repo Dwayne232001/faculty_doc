@@ -1,0 +1,120 @@
+html{
+	/* height: 200%; */
+    /* margin: 0 auto; */
+}
+
+body{
+	/* background-image: url("images/type.jpeg"); */
+	background: linear-gradient(to bottom, rgba(255,255,255,.5), rgba(255,255,255,.1)), url(images/backgroundnew.jpg);
+    /* background: url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60"); */
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	/* background-blend-mode: hard-light; */
+}
+
+.colour {
+    color: #ff0000;
+}
+
+.one{
+	/* margin:15px; */
+	/* margin-top: 5%; */
+	margin: 0 auto;
+}
+
+.login{
+	display:table;
+	border-radius:5px;
+	/* margin:30px; */
+	margin-top: 6%;
+	margin-bottom: 2%;
+}
+
+.loginrow{
+	width:600px;
+	height:276px;
+	border:2px solid #605ca8;
+	background:white;
+	display:table-cell;
+	vertical-align: middle;
+	border-radius:5px;
+}
+
+.errorrow{
+	width: 600px;
+	height: 30px;
+	display:table-cell;
+	vertical-align: middle;
+	border-radius:5px;
+}
+
+.gsignin{
+	height:276px;
+	background:#605ca8;
+	border-radius:5px;
+}
+
+.reset{
+	display:table;
+	border-radius:5px;
+	/* margin:30px; */
+	/* margin: 5%; */
+	margin-bottom: 2%;
+}
+
+.resetrow{
+	width:600px;
+	border:2px solid orange;
+	height:30px;
+	background:white;
+	display:table-cell;
+	vertical-align: middle;
+	border-radius:5px;
+}
+
+.areset{
+	background:orange;
+	color:white;
+	padding:10px;
+	border-radius:3px
+}
+
+.error2 {
+    color: red;
+    border: 1px solid red;
+    background-color: #ebcbd2;
+    border-radius: 5px;
+    /* margin: 45px; */
+	/* margin: 5%; */
+	margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+	width: 600px;
+	height: 30px;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.navbar{
+	background: transparent;
+	/* height: 200%; */
+	height: 100px;
+	border: none;
+	/* margin-left: 2%; */
+	/* min-height: 100px; */
+}
+
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    /* padding-top: 10px; */
+}
+
+.navbar-brand{
+	margin-left: -3%;
+	/* margin-top: 1%; */
+}

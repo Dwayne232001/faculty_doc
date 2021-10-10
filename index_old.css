@@ -1,0 +1,70 @@
+body,
+html {
+    height: 200%;
+    margin: 0;
+}
+
+
+.bg {
+    /* The image used */
+    /* //background-image: url("images/blue-color-background-wallpaper-4.jpg"); */
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    /* background: black !important; */
+    background-image: url("images/type.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(to right, #1A237E, #673A90); */
+}
+
+.box {
+    /* margin: 0 auto;
+    margin-top: 0%; */
+    /* margin-left: 26.2%; */
+    margin-left:52%;
+    /* margin-right: 13.1%; */
+}
+
+.colour {
+    color: #ff0000;
+}
+
+.error2 {
+    color: red;
+    border: 1px solid red;
+    background-color: #ebcbd2;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 25.5%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 510px;
+}
+
+.box-footer .btn {
+    width: 80px;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
