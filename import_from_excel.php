@@ -87,6 +87,9 @@ if (isset($_FILES['excel'])) {
          case 'paper_review':
             exec('python pandas_paper_review.py ' . $file_name . ' 2>&1', $output);
             break;
+         case 'facultydetails':
+            exec('python pandas_faculty_details.py ' . $file_name . ' 2>&1', $output);
+            break;
          case 'researchdetails':
             exec('python pandas_research.py ' . $file_name . ' 2>&1', $output);
             break;
@@ -358,6 +361,7 @@ if (isset($_FILES['excel'])) {
                            <option value="faculty">Paper Publication</option>
                            <option value="paper_review">Paper Reviewer</option>
                            <option value="researchdetails">Research Details</option>
+                           <option value="facultydetails">Faculty Details</option>
                            <option value="invitedlec">Faculty Interaction</option>
                            <option value="attended">STTP/Workshop Attended</option>
                            <option value="organised">STTP/Workshop Organised</option>
